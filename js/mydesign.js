@@ -1,10 +1,16 @@
-var settings = {
-  "url": "https://api.spacexdata.com/v3/launches/next",
-  "method": "GET",
-  "timeout": 0,
-};
 
-$.ajax(settings).done(function (response) {
-	$("#tahmin").text(response);
-	console.log(response.data);
-});
+var settings = {
+			  "url": "https://api.spacexdata.com/v3/launches/next",
+			  "method": "GET",
+			  "timeout": 0,
+			};
+
+			$.ajax(settings).done(function (response) {
+				$("#flightNumber").text(response.flight_number);
+				$("#missionName").text(response.mission_name);
+				$("#rocketName").text(response.rocket.rocket_name);
+				$("#launchSiteName").text(response.launch_site.site_name);
+
+				console.log(response.data);
+
+			});
