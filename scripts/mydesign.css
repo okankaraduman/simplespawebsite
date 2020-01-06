@@ -1,3 +1,17 @@
+.title {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.bottom
+{
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -5,14 +19,15 @@
 .div{
   position: relative;
   bottom: 0;
-  padding-top: 150px;
-  padding-left: 300px
-  width: 300px;
+  padding-top: 0px;
+  padding-left: 0px
+  vertical-align:left;
+  width: 500px;
   border: 3px solid navy;
 }
 .outer {
   display: table;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   height: 100%;
@@ -25,8 +40,8 @@
 }
 
 .inner {
-  margin-left: auto;
+  margin-left: 440px;
   margin-right: auto;
-  width: 400px;
+  width: 200px;
   /*whatever width you want*/
 }
