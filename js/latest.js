@@ -11,12 +11,9 @@
 				console.log(response);
     });
 
-var countDownDateasString = countDownDate.toString();
 
 document.getElementById("next").onclick = function () {
-$(document).ready(function() {       
 
-});
 	window.location.href='next.html';
 };
 
