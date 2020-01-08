@@ -1,10 +1,15 @@
 .title {
   display: block;
-  margin-top: 10px;
+  margin-top: 50px;
   font-weight: bold;
+}
+.inside
+{
+  margin-left: 50%;
 }
 .bottom
 {
+  font-weight: bold;
   position: fixed;
   left: 50%;
   bottom: 20px;
@@ -17,12 +22,13 @@
     padding: 0;
 }
 .div{
+  font-family:Courier New;
   position: relative;
   bottom: 0;
   padding-top: 0px;
   padding-left: 0px
   vertical-align:left;
-  width: 500px;
+  width: 600px;
   border: 3px solid navy;
 }
 .outer {
@@ -40,8 +46,16 @@
 }
 
 .inner {
-  margin-left: 440px;
+  margin-left: 400px;
   margin-right: auto;
   width: 200px;
   /*whatever width you want*/
 }
+
+
+
+
+
+
+
+

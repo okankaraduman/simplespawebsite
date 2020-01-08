@@ -1,7 +1,18 @@
 <html>
+<body>
+<style>
+body {
+  background-image: url('ourbackground.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
 <font face = "Helvetica">
 <link rel="stylesheet" href="scripts/mydesign.css">
  <script language="JavaScript"  src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+
 
 <div class="title">
 <center> 
@@ -17,10 +28,15 @@
   <div class="middle">
     <div class="inner">
 		<div class="div">
-				
-				<h2 style="text-align:center" font="Arial"> Will be Launch </h2>
     			<h3 font="Arial"> Flight Number</h3>
-				<span  id="flightNumber"> </span>
+    			<span  id="flightNumber"> </span>
+
+    				<div class="inside">
+					<h3 style="text-align:center" font="Arial"> Will be Launch 
+					</h3>
+					<h4 id="countDown"> </h4>
+					Days Hours Minutes Seconds
+    				</div>
 				<h3> Mission Name </h3>
 				<span id="missionName"> </span>
 				<h3> Rocket Name </h3>	
